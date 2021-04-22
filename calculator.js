@@ -10,3 +10,11 @@ module.exports.minus = (x, y) => {
 
     return this.sum (x,-y);
 };
+
+
+// https://www.geeksforgeeks.org/subtract-two-numbers-without-using-arithmetic-operators/
+module.exports.minus = (x, y) => {
+
+    function minus(x, y) {
+        return sum(x, -y);
+    }
